@@ -1,0 +1,93 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Verdana, sans-serif;
+  background-image: url(design/teglafal.jpg);
+  background-repeat: repeat;
+  font-size: 10pt;
+}
+.tarolo {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #333333;
+}
+h1 {
+  color: beige;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 30px;
+}
+ul {
+  color: beige;
+  font-size: 10px;
+  text-align: justify;
+  list-style: square;
+  margin-top: 0px;
+  margin-right: 10px;
+  line-height: 1.5;
+}
+.fejlec {
+  background-size: cover;
+  
+}
+.fejlec img {
+  width: 100%;
+}
+.menu {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  height: 35px;
+  padding: 10px;
+}
+.menu a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+}
+.menu a:hover {
+  color: white;
+  background-color: white;
+}
+.tartalom img {
+  float: left;
+  width: 25%;
+  margin: 30px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.tartalom {
+  background-color: black;
+  overflow: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+@media only screen and (max-width: 400px) {
+  .tarolo{
+    width: 100%;
+  }
+ .tartalom img{
+  float: none;
+  margin:5px;
+  width: 100%;
+ }
+  
+}
+@media only screen and (max-width: 360px) {
+  .menu{
+    height: 105px;
+  }
+  .menu a{
+    display:block;
+  }
+  
+}
